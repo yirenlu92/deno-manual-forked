@@ -199,6 +199,3 @@ unhandled rejection at: Promise {
     at file:///dev/unhandled_rejection.js:10:1
 unhandled rejection at: Promise { <rejected> undefined } reason: undefined
 ```
-
-This API will allow us to polyfill `process.on("unhandledRejection")` in the
-Node compatibility layer in future releases.
